@@ -1,10 +1,5 @@
 #include <ESP8266WiFi.h>
-#include <NTPClient.h>
 #include <WiFiUdp.h>
-
-#define NTP_OFFSET   60 * 60
-#define NTP_INTERVAL 60 * 1000
-#define NTP_ADDRESS  "europe.pool.ntp.org"
 
 WiFiUDP Udp;
 const int RSSI_buffer_leangth = 10;
